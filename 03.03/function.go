@@ -23,6 +23,7 @@ func realSensor() kelvin {
 	return 0
 }
 
+//闭包就是由于匿名函数封闭并包围作用域钟的变量而得名的
 func main() {
 	sensor := fakeSensor
 	fmt.Println(sensor())
