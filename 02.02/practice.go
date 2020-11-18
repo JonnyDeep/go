@@ -18,7 +18,6 @@ func main() {
 		fmt.Println("converted:", yesno)
 	}
 
-	
 	ans, err := strconv.ParseBool(text1)
 	if err != nil {
 		fmt.Println("converted:", err)
